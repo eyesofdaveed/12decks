@@ -1,0 +1,22 @@
+{
+  "items": [
+    {
+      "value": "8",
+      "label": "Years",
+      "plus": true,
+      "title": "Field Experience"
+    },
+    {
+      "value": "300",
+      "label": "Completed Projects",
+      "plus": false,
+      "title": "Satisfied Clients"
+    },
+    {
+      "value": "77",
+      "label": "Locations",
+      "plus": false,
+      "title": "Serving Greater Seattle Area"
+    }
+  ]
+}

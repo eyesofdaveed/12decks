@@ -1,0 +1,36 @@
+{
+  "items": [
+    {
+      "image": "/img/12decksFeature1.png",
+      "alt": "img"
+    },
+    {
+      "image": "/img/12decksFeature2.png",
+      "alt": "img"
+    },
+    {
+      "image": "/img/12decksFeature3.png",
+      "alt": "img"
+    },
+    {
+      "image": "/img/12decksFeature4.png",
+      "alt": "img"
+    },
+    {
+      "image": "/img/12decksFeature5.png",
+      "alt": "img"
+    },
+    {
+      "image": "/img/12decksFeature6.png",
+      "alt": "img"
+    },
+    {
+      "image": "/img/12decksFeature7.png",
+      "alt": "img"
+    },
+    {
+      "image": "/img/12decksFeature8.png",
+      "alt": "img"
+    }
+  ]
+}

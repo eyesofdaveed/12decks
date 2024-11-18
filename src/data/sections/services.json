@@ -1,0 +1,28 @@
+{
+  "items": [
+    {
+      "icon": {
+        "light": "/images/12decksServices1.png"
+      },
+      "title": "Fencing",
+      "text": "A fence is a structure that encloses an area or the property, typically outdoors, and is usually constructed from posts that are connected by boards and rails. A fence differs from a wall in not having a solid foundation along its whole length, but only at posts.",
+      "link": "/services/service-1"
+    },
+    {
+      "icon": {
+        "light": "/images/12decksServices2.png"
+      },
+      "title": "Decking",
+      "text": "A deck is a flat platform capable of supporting heavy weights, similar to a floor, but typically constructed outdoors, often built above the ground level, and usually connected to a building. The term is a generalization of decks as found on ships.",
+      "link": "/services/service-2"
+    },
+    {
+      "icon": {
+        "light": "/images/12decksServices3.png"
+      },
+      "title": "Quality Materials",
+      "text": "Whether you want to build a deck on your yard or want to add privacy to your property with a fence you first need to determine your type, length, and colors of your materials. Our focus is to ensure providing critical details for a customer to make an informed decision.",
+      "link": "/services/service-3"
+    }
+  ]
+}

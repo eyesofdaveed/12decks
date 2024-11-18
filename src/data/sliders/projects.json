@@ -1,0 +1,31 @@
+{
+  "subtitle": "OUR WORK",
+  "title": "Completed Projects",
+  "numOfItems": 6,
+  "projects": [
+    {
+      "title": "Project 1",
+      "image": "/img/12decksProject1.jpg"
+    },
+    {
+      "title": "Project 2",
+      "image": "/img/12decksProject2.jpg"
+    },
+    {
+      "title": "Project 3",
+      "image": "/img/12decksProject3.jpg"
+    },
+    {
+      "title": "Project 4",
+      "image": "/img/12decksProject4.jpeg"
+    },
+    {
+      "title": "Project 5",
+      "image": "/img/12decksProject5.jpg"
+    },
+    {
+      "title": "Project 6",
+      "image": "/img/12decksProject6.jpeg"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "subtitle": "Core Features",
+  "title": "Why Choose Us?",
+  "yt_video_id": "uemObN8_dcw",
+  "image": {
+    "url": "/img/12decksFeature.jpg",
+    "alt": "image"
+  },
+  "items": [
+    {
+      "num": "01.",
+      "title": "Free Esimate",
+      "text": "We offer free on-site estimates for all projects. Our team will work with you to find the best solution for your needs."
+    },
+    {
+      "num": "02.",
+      "title": "Design & Plan",
+      "text": "We help you design and plan your project to ensure that it meets your needs and budget."
+    },
+    {
+      "num": "03.",
+      "title": "Material Supply",
+      "text": "We work with the best suppliers to provide you with the highest quality materials for your project."
+    },
+    {
+      "num": "04.",
+      "title": "Quality Guarantee",
+      "text": "We stand behind our work and offer a quality guarantee on all of our projects."
+    }
+  ]
+}

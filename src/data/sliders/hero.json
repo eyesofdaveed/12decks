@@ -1,0 +1,22 @@
+{
+  "items": [
+    {
+      "image": "img/12deckshero1.jpg",
+      "title": "12 Decks & Fences",
+      "text": "12 Decks and Fences expertise in reconstructing and installing various structural types of decks and fences collaborating with finest materials providers.",
+      "button": {
+        "label": "Free Estimate",
+        "link": "/estimate"
+      }
+    },
+    {
+      "image": "img/12deckshero2.jpg",
+      "title": "Serving Greater Seattle Area",
+      "text": "12 Decks and Fences expertise in reconstructing and installing various structural types of decks and fences collaborating with finest materials providers.",
+      "button": {
+        "label": "Free Consultation",
+        "link": "/estimate"
+      }
+    }
+  ]
+}
