@@ -11,7 +11,7 @@ const DefaultFooter = () => {
               <div className="contact-info d-flex-all">
                 <div className="images d-flex-all justify-content-start"></div>
                 <p>
-                  Sales representative <span>+1(844)433-2512</span> free call !
+                  Sales representative <span>+(206) 487 6747</span> free call !
                 </p>
               </div>
               <Link href="/contact" className="theme-btn">

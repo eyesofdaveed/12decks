@@ -6,19 +6,21 @@ import Link from "next/link";
 
 const HeroSlider = () => {
   return (
-    <section
-      className="featured-slider-one"
-      style={{ background: "grey", minHeight: "100vh" }}
-    >
-      <div className="containe">
+    <section className="featured-slider-one" style={{ background: "grey" }}>
+      <div className="containe" style={{ height: "100%" }}>
         <Swiper
           {...sliderProps.heroSlider}
           className="swiper-container ro f-slider-one"
+          style={{ height: "100%" }}
         >
           {Data.items.map((item, key) => (
             <SwiperSlide key={`hs-slide-${key}`} className="swiper-slide">
               <div className="f-slider-layer">
-                <img src={item.image} alt={item.title} />
+                <img
+                  src={item.image}
+                  alt={item.title}
+                  style={{ objectFit: "cover" }}
+                />
                 <div className="f-slider-one-data">
                   <h1>{item.title}</h1>
                   <p>{item.text}</p>

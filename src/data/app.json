@@ -19,7 +19,7 @@
     "menu": [
       {
         "label": "BOOK NOW",
-        "link": "/estimate",
+        "link": "https://12decksandfences.com/index.php/book-now/",
         "children": 0
       },
       {
@@ -46,10 +46,10 @@
     },
     "info": {
       "address": "Seattle, WA, USA",
-      "tel": "+(844) 433 2512",
+      "tel": "+(206) 487 6747",
       "email": "quote@12decksandfences.com"
     },
-    "copy": "Built by <a href='https://eyesofdaveed.github.io/personal-portfolio/'>@eyesofdaveed</a> <i class='fa-solid fa-heart'></i> © 2023 All rights reserved"
+    "copy": "Built by <a href='https://eyesofdaveed.github.io/personal-portfolio/'>@eyesofdaveed</a> <i class='fa-solid fa-heart'></i>"
   },
   "social": [
     {

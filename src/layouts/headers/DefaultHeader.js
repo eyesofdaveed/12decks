@@ -114,8 +114,8 @@ const DefaultHeader = ({ contactButton }) => {
                           </svg>
                         </a>
                         {contactButton != 1 && (
-                          <a href="tel:+8444332512" className="theme-btn">
-                            +(844) 433 2512
+                          <a href="tel:+2064876747" className="theme-btn">
+                            +(206) 487 6747
                             <i>
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
@@ -229,10 +229,11 @@ const DefaultHeader = ({ contactButton }) => {
           </div>
 
           <div className="mobile-nav desktop-menu">
-            <h2>We Build Building and Great Homes.</h2>
+            <h2>Decking and Fencing Services</h2>
             <p className="des">
-              We successfully cope with tasks of varying complexity, provide
-              long-term guarantees and regularly master new technologies.
+              We provide full range of decking and fencing services, including
+              design, installation and maintenance. We serve Greater Seattle
+              Area.
             </p>
 
             <figure>
@@ -240,18 +241,8 @@ const DefaultHeader = ({ contactButton }) => {
             </figure>
 
             <h3>Get in touch</h3>
-            <p className="num">(+380) 50 318 47 07</p>
-            <p className="adrs">
-              65 Allerton Street 901 N Pitt Str, Suite 170, VA 22314, USA
-            </p>
-
-            <div className="social-medias">
-              {appData.social.map((item, key) => (
-                <a href={item.link} target="_blank" key={`hsocial-item-${key}`}>
-                  {item.title}
-                </a>
-              ))}
-            </div>
+            <p className="num"> </p>
+            <p className="adrs">Seattle, WA USA</p>
           </div>
         </div>
       </div>
