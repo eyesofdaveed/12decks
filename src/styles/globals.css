@@ -16,3 +16,7 @@
   font-weight: 900;
   text-align: center;
 }
+
+ul li a:hover {
+  color: #555555 !important;
+}
