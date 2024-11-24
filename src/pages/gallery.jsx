@@ -1,6 +1,7 @@
 import Layouts from "@layouts/Layouts";
 import PageBanner from "@components/PageBanner";
 import imageUrlBuilder from "@sanity/image-url";
+import Link from "next/link";
 
 import { client } from "../sanity/client";
 
