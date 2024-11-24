@@ -26,23 +26,6 @@ const PageBanner = ({ pageTitle, pageDesc }) => {
             </div>
           </div>
         </div>
-        <div className="breadcrums">
-          <div className="container">
-            <div className="row">
-              <ul>
-                <li>
-                  <Link href="/">
-                    <i className="fa-solid fa-house"></i>
-                    <p>Home</p>
-                  </Link>
-                </li>
-                <li className="current">
-                  <p>{pageTitle}</p>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
       </section>
     </>
   );
