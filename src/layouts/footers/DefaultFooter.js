@@ -11,10 +11,10 @@ const DefaultFooter = () => {
               <div className="contact-info d-flex-all">
                 <div className="images d-flex-all justify-content-start"></div>
                 <p>
-                  Sales representative <span>+(206) 487 6747</span> free call !
+                  Sales representative <span><Link href='tel:+2064876747' >+(206) 487 6747</Link></span> free call !
                 </p>
               </div>
-              <Link href="/contact" className="theme-btn">
+              <Link href="https://12decksandfences.com/index.php/book-now/" className="theme-btn">
                 Get a Free Consultation{" "}
                 <i className="fa-solid fa-angles-right" />
               </Link>
