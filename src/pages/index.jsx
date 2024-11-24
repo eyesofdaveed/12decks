@@ -17,7 +17,7 @@ const ProjectsSlider = dynamic(() => import("@components/sliders/Projects"), {
   ssr: false,
 });
 
-const Home1 = (props) => {
+const Home1 = () => {
   return (
     <Layouts transparent>
       <>

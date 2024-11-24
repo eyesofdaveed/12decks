@@ -7,19 +7,20 @@ import { client } from "../sanity/client";
 
 const builder = imageUrlBuilder(client);
 const POSTS_QUERY = `*[_type == "projects"]{ _id, title, image, description }`;
-const options = { next: { revalidate: 30 } };
+const options = { next: { revalidate: 60 } };
 
 function urlFor(source) {
   return builder.image(source);
 }
 
 const Gallery = ({ projects }) => {
-  console.log(projects);
   return (
     <Layouts>
       <PageBanner
         pageTitle={"Our Projects"}
-        pageDesc={"We proudly present our projects that were built with love and passion."}
+        pageDesc={
+          "We proudly present our projects that were built with love and passion."
+        }
       />
 
       {/* Our Project One Start */}
@@ -53,11 +54,16 @@ const Gallery = ({ projects }) => {
 export default Gallery;
 
 export async function getStaticProps() {
-  const projects = await client.fetch(POSTS_QUERY, {}, options);
+  const projects = await client.fetch(
+    POSTS_QUERY,
+    { next: { revalidate: 60 } },
+    options
+  );
 
   return {
     props: {
       projects,
     },
+    revalidate: 60,
   };
 }
