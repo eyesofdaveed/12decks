@@ -19,7 +19,7 @@ const Gallery = ({ projects }) => {
     <Layouts>
       <PageBanner
         pageTitle={"Our Projects"}
-        pageDesc={"our values and vaulted us to the top of our industry."}
+        pageDesc={"We proudly present our projects that were built with love and passion."}
       />
 
       {/* Our Project One Start */}
