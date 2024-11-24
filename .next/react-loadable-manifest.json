@@ -1,0 +1,42 @@
+{
+  "../node_modules/@sanity/client/dist/index.browser.js -> ./_chunks-es/stegaEncodeSourceMap.js": {
+    "id": 1359,
+    "files": [
+      "static/chunks/359.eefab7992a722b9d.js"
+    ]
+  },
+  "../node_modules/@sanity/client/dist/index.browser.js -> @sanity/eventsource": {
+    "id": 7058,
+    "files": [
+      "static/chunks/58.6afe07a5e81684bf.js"
+    ]
+  },
+  "../node_modules/next-sanity/dist/visual-editing/client-component.js -> ../_chunks-es/VisualEditing.js": {
+    "id": null,
+    "files": []
+  },
+  "pages/index.jsx -> @components/sliders/Hero": {
+    "id": 6878,
+    "files": [
+      "static/css/e7f2c32b53a96c4e.css",
+      "static/chunks/506.bc0a33b1c2b389e4.js",
+      "static/chunks/878.27652bae2e6afa0b.js"
+    ]
+  },
+  "pages/index.jsx -> @components/sliders/Partners": {
+    "id": 780,
+    "files": [
+      "static/css/e7f2c32b53a96c4e.css",
+      "static/chunks/506.bc0a33b1c2b389e4.js",
+      "static/chunks/780.1491c994871a55eb.js"
+    ]
+  },
+  "pages/index.jsx -> @components/sliders/Projects": {
+    "id": 9153,
+    "files": [
+      "static/css/e7f2c32b53a96c4e.css",
+      "static/chunks/506.bc0a33b1c2b389e4.js",
+      "static/chunks/153.a515d8851b496ad0.js"
+    ]
+  }
+}
