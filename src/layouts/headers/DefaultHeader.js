@@ -18,7 +18,6 @@ const DefaultHeader = ({ contactButton }) => {
   const [mobileMenu, mobileMenuToggle] = useState(false);
 
   const clickedMobileMenu = (e) => {
-    e.preventDefault();
     mobileMenuToggle(!mobileMenu);
     document.getElementsByClassName("mobile-menu")[0].classList.toggle("open");
   };
@@ -164,68 +163,19 @@ const DefaultHeader = ({ contactButton }) => {
           </div>
 
           <div className="mobile-nav mobile-menu" id="mobile-nav">
-            <div
-              className="res-log"
-              style={{ display: "flex", justifyContent: "center" }}
-            >
-              <Link href="/">
-                <img
-                  width="200px"
-                  src={appData.header.logo.image}
-                  alt={appData.header.logo.alt}
-                />
-              </Link>
-            </div>
 
             <ul>
               {navItems.map((item, key) => (
                 <li key={`mobilenav-item-${key}`} className={item.classes}>
                   <Link
                     href={item.link}
-                    onClick={
-                      item.children != 0
-                        ? (e) => clickedMobileMenuItemParent(e)
-                        : ""
-                    }
+                    onClick={(e) => clickedMobileMenu(e)}
                   >
                     {item.label}
                   </Link>
-                  {item.children != 0 && (
-                    <ul className="sub-menu">
-                      {item.children.map((subitem, key) => (
-                        <li
-                          key={`mobilenavsub-item-${key}`}
-                          className={
-                            subitem.children != 0
-                              ? "menu-item-has-children"
-                              : ""
-                          }
-                        >
-                          <Link href={subitem.link}>{subitem.label}</Link>
-                          {subitem.children != 0 && (
-                            <ul className="sub-menu">
-                              {subitem.children.map((subsubitem, key) => (
-                                <li key={`mobilenavsub2-item-${key}`}>
-                                  <Link href={subsubitem.link}>
-                                    {subsubitem.label}
-                                  </Link>
-                                </li>
-                              ))}
-                            </ul>
-                          )}
-                        </li>
-                      ))}
-                    </ul>
-                  )}
                 </li>
               ))}
             </ul>
-
-            <a
-              href="#"
-              id="res-cross"
-              onClick={(e) => clickedMobileMenu(e)}
-            ></a>
           </div>
 
           <div className="mobile-nav desktop-menu">
