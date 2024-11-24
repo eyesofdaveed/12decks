@@ -108,7 +108,9 @@ const DefaultFooter = () => {
                         />{" "}
                       </g>{" "}
                     </svg>
-                    <p>{appData.footer.info.tel}</p>
+                    <Link href={`tel:${appData.footer.info.tel}`}>
+                    <p style={{cursor: 'pointer', width: 'auto'}}>{appData.footer.info.tel}</p>
+                    </Link>
                   </li>
                   <li>
                     <svg
@@ -146,7 +148,9 @@ const DefaultFooter = () => {
                         />{" "}
                       </g>{" "}
                     </svg>
-                    <p>{appData.footer.info.email}</p>
+                    <Link href={`mailto:${appData.footer.info.email}`}>
+                    <p style={{ cursor: 'pointer'}}>{appData.footer.info.email}</p>
+                    </Link>
                   </li>
                 </ul>
               </div>
