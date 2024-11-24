@@ -162,7 +162,7 @@ const DefaultHeader = ({ contactButton }) => {
             </div>
           </div>
 
-          <div className="mobile-nav mobile-menu" id="mobile-nav">
+          <div className="mobile-nav mobile-menu" id="mobile-nav" style={{marginTop: '102px'}}>
 
             <ul>
               {navItems.map((item, key) => (
