@@ -6,7 +6,7 @@ class MyDocument extends Document {
       <Html lang="en">
         <Head>
           {/* meta begin */}
-          <title>12 Decks & Fences</title>
+
           <meta charSet="UTF-8" />
           <meta httpEquiv="X-UA-Compatible" content="ie=edge" />
           <meta name="viewport" content="width=device-width, initial-scale=1" />
