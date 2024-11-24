@@ -1,5 +1,6 @@
 import Data from "@data/sliders/projects.json";
 import { sliderProps } from "@common/sliderProps";
+import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 const ProjectsSlider = ({ projects }) => {
@@ -16,7 +17,6 @@ const ProjectsSlider = ({ projects }) => {
         <Swiper
           {...sliderProps.projectsSlider}
           className="swiper-container project-slider"
-
           breakpoints={{
             0: {
               slidesPerView: 1,
@@ -32,48 +32,78 @@ const ProjectsSlider = ({ projects }) => {
             },
           }}
         >
-            <SwiperSlide className="swiper-slide" >
+          <SwiperSlide className="swiper-slide">
+            <Link href="https://12decks.vercel.app/gallery">
               <div className="project-post">
                 <figure>
-                  <img src={Data.projects[0].image} alt={Data.projects[0].title} />
+                  <img
+                    src={Data.projects[0].image}
+                    alt={Data.projects[0].title}
+                  />
                 </figure>
               </div>
-            </SwiperSlide>
-            <SwiperSlide className="swiper-slide" >
+            </Link>
+          </SwiperSlide>
+          <SwiperSlide className="swiper-slide">
+            <Link href="https://12decks.vercel.app/gallery">
               <div className="project-post">
                 <figure>
-                  <img src={Data.projects[1].image} alt={Data.projects[1].title} />
+                  <img
+                    src={Data.projects[1].image}
+                    alt={Data.projects[1].title}
+                  />
                 </figure>
               </div>
-            </SwiperSlide>
-            <SwiperSlide className="swiper-slide" >
+            </Link>
+          </SwiperSlide>
+          <SwiperSlide className="swiper-slide">
+            <Link href="https://12decks.vercel.app/gallery">
               <div className="project-post">
                 <figure>
-                  <img src={Data.projects[2].image} alt={Data.projects[2].title} />
+                  <img
+                    src={Data.projects[2].image}
+                    alt={Data.projects[2].title}
+                  />
                 </figure>
               </div>
-            </SwiperSlide>
-            <SwiperSlide className="swiper-slide" >
+            </Link>
+          </SwiperSlide>
+          <SwiperSlide className="swiper-slide">
+            <Link href="https://12decks.vercel.app/gallery">
               <div className="project-post">
                 <figure>
-                  <img src={Data.projects[3].image} alt={Data.projects[3].title} />
+                  <img
+                    src={Data.projects[3].image}
+                    alt={Data.projects[3].title}
+                  />
                 </figure>
               </div>
-            </SwiperSlide>
-            <SwiperSlide className="swiper-slide" >
+            </Link>
+          </SwiperSlide>
+          <SwiperSlide className="swiper-slide">
+            <Link href="https://12decks.vercel.app/gallery">
               <div className="project-post">
                 <figure>
-                  <img src={Data.projects[4].image} alt={Data.projects[4].title} />
+                  <img
+                    src={Data.projects[4].image}
+                    alt={Data.projects[4].title}
+                  />
                 </figure>
               </div>
-            </SwiperSlide>
-            <SwiperSlide className="swiper-slide" >
+            </Link>
+          </SwiperSlide>
+          <SwiperSlide className="swiper-slide">
+            <Link href="https://12decks.vercel.app/gallery">
               <div className="project-post">
                 <figure>
-                  <img src={Data.projects[5].image} alt={Data.projects[5].title} />
+                  <img
+                    src={Data.projects[5].image}
+                    alt={Data.projects[5].title}
+                  />
                 </figure>
               </div>
-            </SwiperSlide>
+            </Link>
+          </SwiperSlide>
           <div className="swiper-pagination" />
         </Swiper>
       </div>

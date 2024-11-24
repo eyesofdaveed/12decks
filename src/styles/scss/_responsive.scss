@@ -1414,7 +1414,8 @@
   .core-features .video:before {
     left: 45%;
     top: 50%;
-    transform: translate(-50%, -50%) skew(-20deg, 0deg);
+    transform: translate(50%, -50%) skew(-20deg, 0deg);
+    display: none;
   }
   .core-features .video:before {
     height: 400px;
