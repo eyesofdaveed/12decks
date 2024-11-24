@@ -24,21 +24,6 @@ class MyDocument extends (next_document__WEBPACK_IMPORTED_MODULE_1___default()) 
             children: [
                 /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(next_document__WEBPACK_IMPORTED_MODULE_1__.Head, {
                     children: [
-                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("meta", {
-                            charSet: "UTF-8"
-                        }),
-                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("meta", {
-                            httpEquiv: "X-UA-Compatible",
-                            content: "ie=edge"
-                        }),
-                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("meta", {
-                            name: "viewport",
-                            content: "width=device-width, initial-scale=1"
-                        }),
-                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("meta", {
-                            name: "description",
-                            content: "Decking and Fencing Design Installation Repair Services in Greater Seattle Area"
-                        }),
                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("link", {
                             rel: "apple-touch-icon",
                             sizes: "76x76",

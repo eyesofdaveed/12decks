@@ -46,6 +46,17 @@ function MyApp({ Component , pageProps  }) {
                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("meta", {
                         name: "viewport",
                         content: "width=device-width, initial-scale=1.0"
+                    }),
+                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("meta", {
+                        charSet: "UTF-8"
+                    }),
+                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("meta", {
+                        httpEquiv: "X-UA-Compatible",
+                        content: "ie=edge"
+                    }),
+                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("meta", {
+                        name: "description",
+                        content: "Decking and Fencing Design Installation Repair Services in Greater Seattle Area"
                     })
                 ]
             }),

@@ -5,18 +5,6 @@ class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
-          {/* meta begin */}
-
-          <meta charSet="UTF-8" />
-          <meta httpEquiv="X-UA-Compatible" content="ie=edge" />
-          <meta name="viewport" content="width=device-width, initial-scale=1" />
-          <meta
-            name="description"
-            content="Decking and Fencing Design Installation Repair Services in Greater Seattle Area"
-          />
-
-          {/* meta end */}
-
           {/* favicon begin */}
           <link
             rel="apple-touch-icon"

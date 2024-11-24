@@ -16,6 +16,12 @@ function MyApp({ Component, pageProps }) {
         {/* seo begin */}
         <title>12 Decks & Fences</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charSet="UTF-8" />
+        <meta httpEquiv="X-UA-Compatible" content="ie=edge" />
+        <meta
+          name="description"
+          content="Decking and Fencing Design Installation Repair Services in Greater Seattle Area"
+        />
         {/* seo end */}
       </Head>
       <Component {...pageProps} />
