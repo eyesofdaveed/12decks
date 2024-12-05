@@ -1,4 +1,5 @@
 import Document, { Html, Head, Main, NextScript } from "next/document";
+import { NextScript } from "next/document";
 
 class MyDocument extends Document {
   render() {
@@ -38,17 +39,20 @@ class MyDocument extends Document {
           <link rel="stylesheet" href="/css/fontawesome.min.css" />
           <link rel="stylesheet" href="/css/magnific-popup.css" />
           {/* public assets end */}
+        </Head>
+        <body>
           <script
             async
             src="https://www.googletagmanager.com/gtag/js?id=AW-710701541"
           ></script>
-          <script>
-            window.dataLayer = window.dataLayer || []; function gtag()
-            {dataLayer.push(arguments)}
-            gtag('js', new Date()); gtag('config', 'AW-710701541');
-          </script>
-        </Head>
-        <body>
+          <script
+            dangerouslySetInnerHTML={{
+              __html: ` window.dataLayer = window.dataLayer || []; function gtag()
+                      {dataLayer.push(arguments)}
+                      gtag('js', new Date()); gtag('config', 'AW-710701541');
+                      `,
+            }}
+          />
           <Main />
           <NextScript />
         </body>
