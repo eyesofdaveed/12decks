@@ -14,5 +14,23 @@
     "files": [
       "static/chunks/node_modules_next-sanity_dist__chunks-es_VisualEditing_js.js"
     ]
+  },
+  "pages/index.jsx -> @components/sliders/Hero": {
+    "id": "pages/index.jsx -> @components/sliders/Hero",
+    "files": [
+      "static/chunks/src_components_sliders_Hero_jsx.js"
+    ]
+  },
+  "pages/index.jsx -> @components/sliders/Partners": {
+    "id": "pages/index.jsx -> @components/sliders/Partners",
+    "files": [
+      "static/chunks/src_components_sliders_Partners_jsx.js"
+    ]
+  },
+  "pages/index.jsx -> @components/sliders/Projects": {
+    "id": "pages/index.jsx -> @components/sliders/Projects",
+    "files": [
+      "static/chunks/src_components_sliders_Projects_jsx.js"
+    ]
   }
 }
