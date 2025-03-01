@@ -41,6 +41,15 @@ function MyApp({ Component, pageProps }) {
         />
 
         {/* Yandex Metrika Script */}
+        <noscript>
+          <div>
+            <img
+              src="https://mc.yandex.ru/watch/99860187"
+              style="position:absolute; left:-9999px;"
+              alt=""
+            />
+          </div>
+        </noscript>
         <Script
           strategy="afterInteractive"
           dangerouslySetInnerHTML={{
@@ -59,16 +68,6 @@ function MyApp({ Component, pageProps }) {
             });`,
           }}
         />
-        <noscript>
-          <div>
-            <img
-              src="https://mc.yandex.ru/watch/99860187"
-              style="position:absolute; left:-9999px;"
-              alt=""
-            />
-          </div>
-        </noscript>
-
         {/* seo end */}
       </Head>
       <Component {...pageProps} />
