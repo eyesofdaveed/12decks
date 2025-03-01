@@ -28,8 +28,14 @@ function MyApp({ Component, pageProps }) {
         />
         {/* seo end */}
       </Head>
+
       <YandexTag />
       <GoogleTag />
+      <SEO
+        title="Decking & Fencing Installation in Greater Seattle Areas | Licensed & Bonded"
+        description="Expert deck and fencing installation in Greater Seattle Area, including Kirkland, Bothell, Bellevue, Redmond, Edmonds, and Auburn. We build custom decks: hanging, free-standing, two-story, floating with lights and railways using wood, composite, and pressure-treated materials."
+        keywords="deck installation Seattle, fencing contractor Seattle, composite decking Kirkland, wood decks Bellevue, floating decks Redmond, two-story decks Auburn, deck experts Edmonds, licensed deck builder Seattle, custom decks WA"
+      />
       <Component {...pageProps} />
     </>
   );
