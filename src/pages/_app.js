@@ -9,6 +9,7 @@ import "../styles/globals.css";
 import { register } from "swiper/element/bundle";
 import YandexTag from "../metrics/YandexTag";
 import GoogleTag from "../metrics/GoogleTag";
+import SEO from "../metrics/SEO";
 
 // register Swiper custom elements
 register();
