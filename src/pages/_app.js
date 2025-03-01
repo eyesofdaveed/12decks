@@ -18,7 +18,9 @@ function MyApp({ Component, pageProps }) {
     <>
       <Head>
         {/* seo begin */}
-        <title>12 Decks & Fences</title>
+        <title>
+          Deck & Fence Installation in Seattle | Licensed Contractors
+        </title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta charSet="UTF-8" />
         <meta httpEquiv="X-UA-Compatible" content="ie=edge" />
